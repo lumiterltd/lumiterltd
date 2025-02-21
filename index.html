@@ -17,6 +17,7 @@
 
         .container {
             margin-top: 10%;
+            width: 80%;
             text-align: center;
         }
 
@@ -33,16 +34,133 @@
 
 <body>
     <div class="container">
-        <h1>Coming Soon</h1>
-        <p>Under construction.</p>
-        <div class="eyes">
-            <svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="70" cy="25" rx="25" ry="15" fill="#fff" stroke="#000" stroke-width="2" />
-                <circle cx="70" cy="25" r="10" fill="#000" />
-                <ellipse cx="125" cy="25" rx="25" ry="15" fill="#fff" stroke="#000" stroke-width="2" />
-                <circle cx="125" cy="25" r="10" fill="#000" />
-            </svg>
-        </div>
+        <h1>Under construction.</h1>
+        <svg viewBox="0 0 800 400">
+            <!-- Background -->
+            <rect width="800" height="400" fill="#ffffff" />
+
+            <!-- Sun -->
+            <circle cx="700" cy="80" r="40" fill="#FFD700"
+                style="stroke: #FFA500; stroke-width: 4; stroke-linecap: round;" />
+
+            <!-- Ground -->
+            <path d="M0 350 Q400 320 800 350" fill="#90EE90" style="stroke: #228B22; stroke-width: 3;" />
+
+            <!-- School Building -->
+            <g transform="translate(80,100)">
+                <rect x="0" y="0" width="300" height="150" fill="#F4A460" />
+                <!-- Roof -->
+                <path d="M-20 0 L150 -50 L320 0" fill="#8B4513" />
+                <!-- Bell Tower -->
+                <rect x="125" y="-70" width="50" height="40" fill="#CD853F" />
+                <path d="M115 -70 L150 -90 L185 -70" fill="#8B4513" />
+                <!-- Windows -->
+                <rect x="30" y="30" width="40" height="60" fill="#FFF5E1" stroke="#000" stroke-width="2" />
+                <rect x="130" y="30" width="40" height="60" fill="#FFF5E1" stroke="#000" stroke-width="2" />
+                <rect x="230" y="30" width="40" height="60" fill="#FFF5E1" stroke="#000" stroke-width="2" />
+                <!-- Door -->
+                <rect x="130" y="70" width="40" height="80" fill="#8B4513" stroke="#000" stroke-width="2" />
+                <!-- Steps -->
+                <rect x="120" y="150" width="60" height="10" fill="#A0522D" />
+            </g>
+
+            <!--Child ? -->
+            <g transform="translate(370,250)">
+                <circle cx="0" cy="-60" r="25" fill="#F5DEB3" style="stroke: #8B4513; stroke-width: 3;" />
+                <!-- Pigtails -->
+                <path d="M-25 -75 C-40 -85 -40 -65 -25 -75" fill="#000000" />
+                <path d="M25 -75 C40 -85 40 -65 25 -75" fill="#000000" />
+                <!-- Eyes -->
+                <circle cx="-10" cy="-65" r="3" fill="#000" />
+                <circle cx="10" cy="-65" r="3" fill="#000" />
+                <!-- Smile -->
+                <path d="M-10 -55 Q0 -45 10 -55" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" />
+                <!-- Dress -->
+                <path d="M0 -35 L-20 30 L20 30 Z" fill="#FF69B4" stroke="#FF69B4" stroke-width="4" />
+                <path d="M0 30 L-15 70 M0 30 L15 70" fill="none" stroke="#FF69B4" stroke-width="4"
+                    stroke-linecap="round" />
+            </g>
+
+            <!-- Child 1 (East Asian)-->
+            <g transform="translate(280,250)">
+                <circle cx="0" cy="-60" r="25" fill="#F5DEB3" style="stroke: #8B4513; stroke-width: 3;" />
+                <!-- Straight Black Hair -->
+                <path d="M-25 -70 L-25 -85 L25 -85 L25 -70" fill="#000000" />
+                <!-- Modified Eyes -->
+                <circle cx="-10" cy="-65" r="3" fill="#000" />
+                <circle cx="10" cy="-65" r="3" fill="#000" />
+                <!-- Smile -->
+                <path d="M-10 -55 Q0 -45 10 -55" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" />
+                <!-- Body -->
+                <path d="M0 -35 L0 30 M-15 0 L15 0 M0 30 L-15 70 M0 30 L15 70" fill="none" stroke="#4169E1"
+                    stroke-width="4" stroke-linecap="round" />
+            </g>
+
+
+            <!-- Child 3 (African Girl) -->
+            <g transform="translate(510,250)">
+                <circle cx="0" cy="-60" r="25" fill="#8B4513" style="stroke: #654321; stroke-width: 3;" />
+                <!-- Puffs -->
+                <circle cx="-20" cy="-80" r="12" fill="#000000" />
+                <circle cx="20" cy="-80" r="12" fill="#000000" />
+                <!-- Eyes -->
+                <circle cx="-10" cy="-65" r="3" fill="#000" />
+                <circle cx="10" cy="-65" r="3" fill="#000" />
+                <!-- Smile -->
+                <path d="M-10 -55 Q0 -45 10 -55" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" />
+                <!-- Dress -->
+                <path d="M0 -35 L-20 30 L20 30 Z" fill="#9932CC" stroke="#9932CC" stroke-width="4" />
+                <path d="M0 30 L-15 70 M0 30 L15 70" fill="none" stroke="#9932CC" stroke-width="4"
+                    stroke-linecap="round" />
+            </g>
+
+            <!-- Child 2 (South Asian) -->
+            <g transform="translate(440,250)">
+                <circle cx="0" cy="-60" r="25" fill="#CD853F" style="stroke: #8B4513; stroke-width: 3;" />
+                <!-- Wavy Black Hair -->
+                <path d="M-20 -85 Q0 -95 20 -85 Q0 -75 -20 -85" fill="#000000" />
+                <!-- Eyes -->
+                <circle cx="-10" cy="-65" r="3" fill="#000" />
+                <circle cx="10" cy="-65" r="3" fill="#000" />
+                <!-- Smile -->
+                <path d="M-10 -55 Q0 -45 10 -55" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" />
+                <!-- Body -->
+                <path d="M0 -35 L0 30 M-15 0 L15 0 M0 30 L-15 70 M0 30 L15 70" fill="none" stroke="#FF69B4"
+                    stroke-width="4" stroke-linecap="round" />
+            </g>
+
+            <!-- Child 3 (African) -->
+            <g transform="translate(630,250)">
+                <circle cx="0" cy="-60" r="25" fill="#8B4513" style="stroke: #654321; stroke-width: 3;" />
+                <!-- Curly Hair -->
+                <path d="M-25 -70 Q-20 -90 0 -90 Q20 -90 25 -70" fill="#000000" />
+                <path d="M-20 -80 Q-15 -85 -10 -80 M0 -85 Q5 -90 10 -85 M15 -80 Q20 -85 25 -80" fill="none"
+                    stroke="#000000" stroke-width="2" />
+                <!-- Eyes -->
+                <circle cx="-10" cy="-65" r="3" fill="#000" />
+                <circle cx="10" cy="-65" r="3" fill="#000" />
+                <!-- Smile -->
+                <path d="M-10 -55 Q0 -45 10 -55" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" />
+                <!-- Body -->
+                <path d="M0 -35 L0 30 M-15 0 L15 0 M0 30 L-15 70 M0 30 L15 70" fill="none" stroke="#32CD32"
+                    stroke-width="4" stroke-linecap="round" />
+            </g>
+
+            <!-- Child 5 (Hispanic/Latino) -->
+            <g transform="translate(570,250)">
+                <circle cx="0" cy="-60" r="25" fill="#DEB887" style="stroke: #8B4513; stroke-width: 3;" />
+                <!-- Dark Brown Hair -->
+                <path d="M-20 -85 L0 -95 L20 -85 L0 -75 L-20 -85" fill="#3B1E08" />
+                <!-- Eyes -->
+                <circle cx="-10" cy="-65" r="3" fill="#000" />
+                <circle cx="10" cy="-65" r="3" fill="#000" />
+                <!-- Smile -->
+                <path d="M-10 -55 Q0 -45 10 -55" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" />
+                <!-- Body -->
+                <path d="M0 -35 L0 30 M-15 0 L15 0 M0 30 L-15 70 M0 30 L15 70" fill="none" stroke="#FF4500"
+                    stroke-width="4" stroke-linecap="round" />
+            </g>
+        </svg>
     </div>
 </body>
 
